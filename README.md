@@ -88,16 +88,21 @@ https://colab.research.google.com/drive/14AHGl4ABh4IPo5AToxMBlTQiqL3s5cVB#scroll
 
 # Input 2
 #More detailed info including memory usage
+
 df.info()
 
 df.dtypes
 
 #Get the summary of all variables / columns
+
 df.describe()
 
 #View first 10 rows
+
 df.head()
+
 #View last 10 rows
+
 df.tail()
 
 
