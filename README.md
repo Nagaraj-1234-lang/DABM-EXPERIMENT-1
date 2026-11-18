@@ -249,7 +249,31 @@ Glucose             88.0120
 TenYearCHD           0.1840
 dtype: float64
 ```
-## Input
+## Input 7
+```
+# Rename a column
+print("\nRenaming 'age' column to 'Age':")
+df.rename(columns={'age': 'Age'}, inplace=True)
+```
+## Output 7
+```
+Renaming 'age' column to 'Age':
+```
+## Input 8
+```
+# Display updated columns
+print("\nUpdated column names:")
+print(df.columns)
+```
+## Output8
+```
+Updated column names:
+Index(['S. No', 'Gender', 'Age', 'Education', 'currentsmoker', 'Cigsperday',
+       'BPMeds', 'Prevalentstroke', 'PrevalentHyp', 'Diabetes',
+       'Totalcholestrol', 'SysBP', 'DiaBP', 'BMI', 'Heartrate', 'Glucose',
+       'TenYearCHD'],
+      dtype='object')
+```
 
 ## Result
 
